@@ -1,4 +1,7 @@
+Payroll Management System
+
 Overview
+
 The Payroll Management System is a Windows-based desktop application developed using C# and .NET (WinForms) to automate and manage employee payroll operations.
 
 This system streamlines salary processing by handling employee records, salary components, deductions, and net salary calculations efficiently. It minimizes manual errors and improves payroll accuracy.
@@ -23,7 +26,7 @@ Key Features
 7. SQL Server Database Integration
 8. Clean and User-Friendly UI
 
-   System Architecture
+System Architecture
 
 Frontend:
 
@@ -38,6 +41,7 @@ ADO.NET for database connectivity
 Database:
 
 Microsoft SQL Server
+
 Future Enhancements
 
 1.Role-based Login Authentication
@@ -50,7 +54,7 @@ Future Enhancements
 
 5. Migration to Web Application (ASP.NET Core)
 
-   Learning Outcomes
+Learning Outcomes
 
 Through this project, I gained practical experience in:
 
