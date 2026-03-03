@@ -1,56 +1,67 @@
-# Payroll System
-Project Overview
+Overview
+The Payroll Management System is a Windows-based desktop application developed using C# and .NET (WinForms) to automate and manage employee payroll operations.
 
-The Payroll Management System is a desktop application developed to automate employee salary management.
-It helps organizations manage employee records, calculate salaries, apply deductions, and generate accurate payroll reports efficiently.
+This system streamlines salary processing by handling employee records, salary components, deductions, and net salary calculations efficiently. It minimizes manual errors and improves payroll accuracy.
+Objectives
 
-This project is designed to reduce manual errors and simplify payroll operations.
-Features
+Automate employee salary calculation
 
- Add new employees
+Maintain centralized employee records
 
- Update employee details
+Reduce manual payroll errors
 
- Delete employee records
+Provide a structured and scalable payroll solution
 
- Automatic salary calculation
+Key Features
 
-Calculate:
+1. Employee CRUD Operations (Create, Read, Update, Delete)
+2. Automatic Salary Computation
+3. Allowances Calculation (HRA, DA)
+4. Deduction Management (PF, etc.)
+5. Net Salary Calculation
+6. DataGridView Integration for Record Display
+7. SQL Server Database Integration
+8. Clean and User-Friendly UI
 
-Basic Salary
+   System Architecture
 
-HRA
+Frontend:
 
-DA
+Windows Forms (WinForms)
 
-PF
+Backend:
 
-Other deductions
+C# (.NET Framework)
 
-Net Salary
+ADO.NET for database connectivity
 
-Frontend: Windows Forms (WinForms)
+Database:
 
-Backend: C# (.NET Framework)
+Microsoft SQL Server
+Future Enhancements
 
-Database: SQL Server
+1.Role-based Login Authentication
 
-IDE: Visual Studio
+2. PDF Payslip Generation
 
-Version Control: Git & GitHub
+3. Monthly & Annual Reports
 
-Login Authentication System
+4. Export to Excel
 
-PDF Payslip Generation
+5. Migration to Web Application (ASP.NET Core)
 
-Monthly Salary Reports
+   Learning Outcomes
 
-Export to Excel
+Through this project, I gained practical experience in:
 
-Role-based access control
+ADO.NET database connectivity
 
-🔍 Search employee by name or ID
+CRUD operations implementation
 
-📄 Generate salary details
-Manasa Mekala
-Aspiring .NET Developer 
+DataGridView handling in WinForms
+
+SQL Server integration
+
+Clean UI design principles
+
+Real-world payroll logic implementation
